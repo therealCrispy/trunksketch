@@ -47,3 +47,5 @@ node test.cjs
 ```
 
 PDF.js 5.6.205 and pdf-lib 1.17.1 are pinned in the package lock. The build bundles them under `site/vendor/` with their upstream licenses. GitHub Pages deploys this static build automatically after tests pass. PDF export adds vector markings to the original PDF pages rather than rasterizing them. This is a drawing aid; verify cable topology and field conditions.
+
+Phone file picker: use Open project inside TrunkSketch, then Browse to the saved .trunks file in Files or Downloads. The picker allows all file types because iOS can disable custom extensions when a file filter is applied. The app checks the project format after selection.
